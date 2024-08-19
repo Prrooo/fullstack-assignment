@@ -1,27 +1,41 @@
-# Help Center API Assignment
+# Project Name
 
-## Instructions
+This repository contains both the frontend and backend components of the project. Follow the instructions below to set up and run the application locally.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
+## Prerequisites
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+Ensure you have Node.js and Git installed on your system.
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+## Setup
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+### Clone the Repository
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
+Clone the repository to your local machine using the appropriate Git command.
 
----
+### Frontend
+
+Navigate to the `frontend` directory and install the necessary dependencies by running `npm install`. This will download and set up all the required packages for the frontend of the application.
+
+Once the dependencies are installed, you can start the frontend development server by running `npm run start`.
+
+### Backend
+
+Navigate to the `backend` directory and create a `.env` file by copying the existing `.env.example` file. Ensure that the `.env` file contains the following variables:
+
+- `DATABASE_URL`: Your database connection string
+- `PORT=4000`: The port on which the backend server will run
+
+Install the necessary backend dependencies by running `npm install`.
+
+To start the backend server in development mode, run `npm run start:dev`.
+
+## Running the Application
+
+After setting up both the frontend and backend, you should have two servers running:
+
+- The frontend server - npm run start
+- The backend server - npm run start:dev
+
+Access the application via your web browser, and it should connect to the backend API seamlessly.
+
 
